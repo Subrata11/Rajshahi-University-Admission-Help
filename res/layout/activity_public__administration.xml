@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/Economicsdept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About Public Administration dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+              
+
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+         android:text="The Department of Public Administration at the University of Rajshahi launched in 1993. Primarily Public Administration was studied under the Department of Political Science as a sub unit of MSS. The main aim of the Department is to produce efficient and effective manpower who would serve as efficient administrators in both public and private domains. Immediate after commencement it has been recognized as a model Department of Rajshahi University for session jams free academic Excellencies and extracurricular activities. The department constantly reviews its curricula and takes initiatives to enhance facilities to match the contemporary issues and thus prepares the students to face the challenge of the coming century.The Department has three fold missions: teaching, research and service. In teaching, the Department intends to provide theoretical and practical knowledge of Public Administration and to develop skills of the students that will foster within and beyond the discipline. These skills include critical thinking, writing, and communicating abilities that will enable our students to be productive citizens and leaders of the nation.The Department’s research mission is to produce scholars through our academic staffs to meet the highest disciplinary standards for excellence and contributing to contemporary debates on policy, administration and governance.In service mission, the department’s aim is to prepare students to face the challenges of contemporary job markets and scholastic world to survive them and render services to citizens. For the last twenty years a number of brilliant and genius students are produced from the department and doing very prestigious ranked posts of administration including national and multinational organizations. A recent trend has also been noticed that our students are largely engaging in banking sectors and provides service to the citizens.You are welcome to explore our WebPages to find the necessary information. If you are unable to find the information you need, please follow the Contact Information link to send us an e-mail or letter. Thanking you.
+Dr. Md. Awal Hossain Mollah
+Associate Professor  and Chairman
+Department of Public Administration
+University of Rajshahi
+Rajshahi-6205
+Bangladesh.
+Email: awal.h2007@gmail.com "
+
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/pubweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://dept.ru.ac.bd/pad/index.php" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

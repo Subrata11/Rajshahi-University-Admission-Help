@@ -1,0 +1,83 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/mathdept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About Mathematics dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8.14"
+                android:background="@drawable/math"
+                  />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_genoa"
+                android:gravity="fill"
+                android:text=" Prof. Dr. M. Wazed Ali Pramanik
+Professor &amp; Chairman
+Department of Mathematics
+University of Rajshahi, Rajshahi-6205,
+Bangladesh.
+E-mail: wazedali822@yahoo.com
+Contact : Mobile- 01745498911 Telephone- 0721711108(Off.) 0721751180(Res.) "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+            
+            
+            
+
+            <Button
+                android:id="@+id/mathweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8.14"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://dept.ru.ac.bd/mathematics/" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

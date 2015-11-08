@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/pharmacydept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About Pharmacy dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+              
+
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+         android:text="Welcome to the Department of Pharmacy, University of Rajshahi. The Department of Pharmacy is one of the seven academic departments within the Faculty of Science. Established in 1990, the department of Pharmacy has started its academic activities in 1991 in 2nd Science Building of RU campus. Since then the respected teachers and the office staffs are struggling to keep up the standard of the department as an example. The department has 34 teaching staffs and 150 students in various classes.
+Our mission is to prepare pharmacists to provide optimal pharmaceutical care and to prepare graduate and postgraduate students to provide leadership in scholarship and practice. The Department generates and disseminates knowledge to assure the safe, effective, and cost-efficient use of medications.
+Our vision is to be recognized nationally as a leader in pharmacy education and scholarship that optimizes the use of pharmaceuticals and the provisions of pharmaceutical care.
+Our most important values are:the pursuit of excellence in education and scholarship; a commitment to providing leadership and innovation in pharmaceutical care towards the enhancement of the profession of pharmacy and the health and well-being of the population and a sense of community, premised on collegiality, mutual trust and respect, and accepting accountability to the University and the citizens of Bangladesh. "
+android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/pharmacyweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://dept.ru.ac.bd/phar/atrupharm.htm" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

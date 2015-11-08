@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/Antholopodept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About Anthropology dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+              
+
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+         android:text="Welcome to Anthropology\nAnthropology is the study of humans and their interactions with each other and the environment. We interact with people every day. Anthropology can help us learn why people do the things they do, why they act the way they act, why they say the things they say. Whether we work in a shopping-mall or in a law office, we deal with people. Studying anthropology helps us to deal with them better, trying to understand their motivations and rationale.\nWhy Chose Anthropology?
+Humans are complex social beings who have the capacity of thought. This capacity has helped them evolve as different cultures speaking different languages. Anthropology is the study of these cultural and biological aspects of human life. How humans interact with each other and with the environment? Why they behave the way they behave? Why they say the different things they say? The study of anthropology helps to deal with people in a better manner.
+Humans are amazing animals. All humans have the same physical characteristics. However, with different climates, foods and religions they grow up into different individuals, speaking different languages, and wearing different cloths. The Main aim of the study of the anthropology is to understand the basic differences between various cultures and human societies. This makes the subject matter of the study vast.\nCareer in Anthropology
+When you possess a degree in social anthropology, you have the solid foundation to pursue one of the manyinteresting careers involving communication skills, social research and problem solving abilities. The study gives a detailed perspective on cross cultural thinking.The anthropology curriculum prepares the student for a wide range of careers in human service fields, for example, in health fields, public administration, environmental services, counseling, government, planning, contract archaeology, education, museums, community development, legal services, work with immigrants, international agencies, forensics, and international business. In addition, students may seek graduate work for preparation as professional anthropologists specializing in archeology, linguistics, social/cultural and physical anthropology."
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/anthopoloweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://dept.ru.ac.bd/anthropology/" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

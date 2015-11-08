@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/physicsdept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About Statistics dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+              
+
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+         android:text="♦Statisticians work at the interface between science, mathematics and philosophy -B. Efron and R. J. Tibshirani
+♦Our planet is endangered with the thinning of the ozone layer, extinction of several species, massive atmospheric pollution, nuclear radiation, genotoxicity, ecological imbalance and numerous other threatening factors. . . .Statisticians have a basic role to play in conjunction with the scientists in other disciplines in combating this extinction - P.K. Sen
+♦If data analysis is to be well done, much of it must be a matter of judgment and “theory”, whether statistical or non-statistical, will have to guide, not command - Tukey
+♦Science is a wonderful thing if one does not have to earn one’s living at it - Albert Einstein"
+android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/phyweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://www.statru.org/" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

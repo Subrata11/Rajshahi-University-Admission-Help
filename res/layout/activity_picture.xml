@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@android:color/holo_blue_light"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LastActivity" >
+
+         <Button
+             android:id="@+id/faculties"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="I am Subrata paul."
+             android:textColor="@android:color/white"
+             android:textSize="18sp" >
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/faculties"
+        android:src="@drawable/l" />
+
+</RelativeLayout>

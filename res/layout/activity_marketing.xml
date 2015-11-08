@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/Economicsdept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About Marketing dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+              
+
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+         android:text="The Department of Marketing at the University of Rajshahi was founded in 1981. It has started functioning from the session of 1981-82. The founding Dean of the then Faculty of Commerce and renowned academician Professor Asgar Ali Talukdar was also the founding Chairman of the Department of Marketing.In to-day’s competitive business environment, Marketing becomes an exciting and challenging profession. In the face of intense competition and changing environment business enterprises increasingly demand competent marketing executives. To meet the needs of national and international organizations Department of Marketing R.U. offers extended and excellent facilities for marketing education in Bangladesh. With highly qualified academic staffs, including Professors and Associate Professors the department is committed to develop competent marketing executives by nurturing a unique culture and team spirit that rewards professionalism, creativity and excellence. Hopefully, successful completion of BBA and MBA in Marketing from the Department of Marketing will make young graduates ready to face the hardship of real life and competent enough to get challenging jobs.Over the year since 1981, graduates from the Department of Marketing R.U. have occupied key managerial positions in the multinationals, local conglomerates, small and medium-scale enterprises, various government organizations, NGOs and international organizations."
+ 		android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/maeketweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://dept.ru.ac.bd/marketing/" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

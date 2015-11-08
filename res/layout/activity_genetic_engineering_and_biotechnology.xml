@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/zoologydept"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About Genetic engineering and biotechnology dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+              
+
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+         android:text="Genetic engineering and biotechnology is the most sophisticated and demanding subject in the modern world. Genetic engineering and biotechnology  is making milestones in the development of medical sciences, industrial sectors, human health, crop improvement and numerous other sectors. With the vision of making skillful  research workers  department of genetic engineering and biotechnology has been established. Department of Genetics and Breeding is the oldest department, now under the Faculty of Agriculture. It came into being under the Faculty of Life and Earth Sciences on the 27th July, 1996 with our reverent teacher Professor O.I.Joarder as the first chairman. Under the curriculum of the Faculty of Agriculture, the B.Sc.Agri.(Honours) 1st batch with 25 students has been started their academic session 2000-2001 from November, 2000. The filed of research in this department are Plant and Animal Breeding, Biometrical and Molecular Genetics, biotechnology and Tissue culture etc. The Genetical Society of Bangladesh is housed in the department and Bangladesh Journal of Genetics and Biotechnology as an official organ of this society is being published biannually.The website is still under construction. So everybody be patient we will be back soon with full contents. We are trying to make the website helpful both for the visitors and the students. Its the initial draft of the website. Most of the contents are not added. We are extremely sorry for inconvenience.................."
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/geneticweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://dept.ru.ac.bd/zoo/home.htm" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

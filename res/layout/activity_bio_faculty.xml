@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/custom_btn_seagull"
+    android:orientation="vertical" >
+    
+   				 <Button
+                android:id="@+id/t"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_genoa"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="F unit: Faculty of Life and Earth Science\nSeven Depts"
+                android:textColor="@android:color/background_dark"
+                android:textSize="22sp" >
+            </Button>
+    
+    
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            
+            <Button
+                android:id="@+id/geography"
+                android:layout_width="fill_parent"
+                android:layout_height="81dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="1.Geography and Environmental Studies"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/psychology"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="2.Psychology"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/botany"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="3.Botany"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/zoology"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="4.Zoology"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+            
+            <Button
+                android:id="@+id/mining"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="5.Geology and Mining"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/genetic"
+                android:layout_width="fill_parent"
+                android:layout_height="81dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="6.Genetic Engineering and Biotechnology"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+            
+           <Button
+                android:id="@+id/clinical"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="7.Clinical phycology\n(New dept from-2016)"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+            
+        </LinearLayout>
+    </ScrollView>
+
+     
+
+</LinearLayout>

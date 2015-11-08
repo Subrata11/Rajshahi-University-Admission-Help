@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/biochemdept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About Biochemistry dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+              
+
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+        android:text="The Department of Biochemistry and Molecular Biology of the Faculty of Science, Rajshahi University is located in the 3rd floor of the Second Science building of the University. The Department started its journey in 1976 initially with Masters Course of studies under the leadership of its Founder- Chairman, Professor Dr. M. Qaisuddin. The B.Sc. (Honours) course of studies was introduced in 1981, and the M.Phil, and Ph.D. programs subsequently. Since its establishment, the department has been pursuing academic and research activities in the field of Biochemistry and Molecular Biology and producing graduates of very acceptable standard. While many of these graduates are pursuing doctoral and post-doctoral research abroad, some of them are also having jobs in different countries of the world. In view of the academic and research activities pursued, the department was renamed in 2001 as the “Department of Biochemistry and Molecular Biology” in keeping with the international level of nomenclature, and its activities were further expanded to launch most advanced research. At present, there are 39 members of the teaching staffs in the department with some 250 students in the undergraduate and masters levels"
+         
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/biochemweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://dept.ru.ac.bd/biochem/" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

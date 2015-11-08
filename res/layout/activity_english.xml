@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/Economicsdept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About English dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+              
+
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+         android:text="The Department of English is one of the seven departments with which the University of Rajshahi started it academic activities in 1953. The department started its first academic session in 1954 with Syed Ali Ashraf as its founding Head. Since then the Department has progressed with dedicated and pioneering services from eminent educationists like Professor Zillur Rahman Siddiqui, Professor Mohammad Ali, Professor Amanullah Ahmed, Quazi Joan Hossain, Professor Sadruddin Ahmed and Professor Ali Anwar.
+
+The department has now a faculty strength of nineteen teachers and a student body of about five hundred regular students. To retain its excellence in academic matters the department maintains a rich collection of books on English language and literature. It also occasionally arranges seminars and encourages the students to take part in co-curricular activities like debates. Praxis, an occasional publication of the department, documents the department's orientation to research and creativity.
+
+The Department has an officially recognized students' body, the English Association. Under direct patronization of the department this body organizes and runs various co-curricular and extra-curricular activities aimed at helping students excel in diverse fields."
+      	android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/engaweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://www.ru.ac.bd/english" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

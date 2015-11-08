@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/Economicsdept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About History dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+              
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+         android:text="The department of History started its enterprise with the inception of the university. It is one of the eighth departments which inaugurated their educational activities in the session 1954-55. At first, it started its endeavor at Rajshahi College Complex on November 24, 1954.The department was build up with an unassuming sincerity of two renowned professors i.e. Dr. A. R. Mallik and Dr. A. F. Salahuddin Ahmed. At present the department has 21 teachers and 600 students. A good number of its pupils have already completed their M.Phil and Ph.D research and this trend is on the increase. It has also a seminar library with a good collection of necessary books and journals. Neverthless, the department also pays attention to the co-curricular activities i.e. games and sports, cultural practices etc. for the personal development of its pupils. Every year  it organizes study tours both home and abroad for the students of M.A. final year and also assists pupils of different sessions to organize study yours to visit different historical places around the country. At present there is no session jam in this department"
+      	android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+     
+            <Button
+                android:id="@+id/hisweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://dept.ru.ac.bd/history/" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

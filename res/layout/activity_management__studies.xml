@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/Economicsdept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About Management Studies dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+              
+
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+         android:text="Management has clearly been recognized as critical to the process of economic development of a developing country like ours. Technological and other developments proceed apace and challenge not only the quantum of knowledge and its accessibility but also the nature and manner of work itself. Graduates need to plan to differentiate themselves in the marketplace. A critical element of this differentiation involves a commitment to continuous learning and a willingness to accept personal challenges. Considering the importance of management, the University of Rajshahi established the Department of Management in the year 1972. The Department was placed under the Faculty of Commerce. From January 2012, the name of the department becomes 'Department of Management Studies'.In line with the changing market demands, the Department of Management Studies has changed undergraduate (B.Com) and graduate (M.Com) programs to BBA (Honours) and MBA program. The department has opened Evening MBA program from 2008. There is a fundamental change in course curriculum based on the experience and knowledge gained over a period of time by the faculty members.The Department also offers M.Phil. and Ph.D. degrees under the supervision of a number of qualified researchers. Department of Management Studies continuously providing a learning environment which enables students who will guide future competitive advantage, to access knowledge and skills that will keep them at the forefront of management practice and theory. We hope that this program would be able to play a pivotal role in the development of a new generation of managers and corporate leaders."
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/manageweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://dept.ru.ac.bd/manage/index.php" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

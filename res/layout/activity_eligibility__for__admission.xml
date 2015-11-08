@@ -1,0 +1,241 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ff"
+    android:orientation="vertical" >
+
+   
+             <Button
+                android:id="@+id/eligible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Educational Qualification:"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+  
+            
+        
+        	    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_orange"
+        android:textSize="18sp"
+        android:text="একাডেমিক সেশন 2015-2016 অধীনে রাজশাহী বিশ্ববিদ্যালয় (রাবি) প্রথম বছর ব্যাচেলর (সম্মান) ভর্তি পরীক্ষা সময়সূচী নির্ধারণ করা হয়েছে.সিদ্ধান্ত ভর্তি পরীক্ষা সংক্রান্ত কমিটির বৈঠকে এ সিদ্ধান্ত নেয়া হয়. জুলাই 28, 2015 উপর বিশ্ববিদ্যালয় এ এইচ এম আসলাম হোসেন একাডেমিক শাখার উপ-রেজিস্ট্রার ভর্তি অক্টোবর 01, 2015 থেকে অনলাইন মাধ্যমে আবেদন করতে পারে না.অ্যাপ্লিকেশনের জন্য শেষ তারিখ অক্টোবর 18, 2015 ভর্তি পরীক্ষা 9 থেকে 12 নভেম্বর 2015 অনুষ্ঠিত হবে.কোনো উল্লেখযোগ্য পরিবর্তন ভর্তি পরীক্ষায় অংশগ্রহণ সম্পর্কে পূর্ববর্তী বছরের তুলনা এই বছর আনা হয়নি. ভর্তি পরীক্ষার জন্য দ্বিতীয় সুযোগ বন্ধ না করায়. তাই গত বছরের অংশগ্রহণকারী ছাত্র এই বছর পরীক্ষায় অংশ নিতে সক্ষম হবে."
+     	></TextView>
+    
+      		    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textColor="@android:color/white"
+        android:background="@drawable/nice_button"
+        android:textSize="18sp"
+        android:text="*student must have to pass S.S.C or equivalent exam by the year  2009,2010,2011 and H.S.C or equivalent exam by the year 2014,2015.\n\n*Students from diploma in commerce, Diploma in engineering(computer science), Diploma in Agriculture,B F A (pre) and vocational from both S.S.C and H.S.C and students from &apos;a&apos; and &apos;o&apos; level are allowed for application. Like the customary phenomenon and orthodox procedure the students from Bangladesh Open university are not Eligible and they will not be entertained."
+     	></TextView>
+      		    
+      		    <Button
+                android:id="@+id/eligible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="GPA needed:"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+           <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textColor="@android:color/white"
+        android:background="@drawable/nice_button"
+        android:textSize="18sp"
+        android:text="*Humanities group:\n\nIndividual GPA of S.S.C and H.S.C at least be 3.00 and combined GPA have to be at least 7.00 including 4th subject
+\n\n*Science group:GPA of S.S.C and H.S.C at least be 8.50 combindely  including 4th subject
+\n\n*Commerce group:GPA of S.S.C and H.S.C at least be 8.00 combindely  including 4th subject  
+\n\n*GEC O level  student have to pass at least 5 subject and at A level at least 2. Among that 7 there should be at least 4 B grade and 3 C grade. There question will be in English."></TextView>
+      		
+           
+            
+<!--             <Button -->
+<!--                 android:id="@+id/eligible" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="70dp" -->
+<!--                 android:layout_margin="15dp" -->
+<!--                 android:background="@drawable/custom_btn_orange" -->
+<!--                 android:gravity="center" -->
+<!--                 android:shadowColor="@android:color/black" -->
+<!--                 android:shadowDx="1" -->
+<!--                 android:shadowDy="1" -->
+<!--                 android:shadowRadius="1" -->
+<!--                 android:text="How to apply for Rajshahi University: by SMS:" -->
+<!--                 android:textColor="@android:color/white" -->
+<!--                 android:textCursorDrawable="@android:layout/simple_list_item_1" -->
+<!--                 android:textSize="18sp" > -->
+<!--             </Button> -->
+ 
+        
+        
+        
+<!--             <TextView -->
+<!--         android:id="@+id/textView2" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:gravity="fill" -->
+<!--         android:textColor="@android:color/white" -->
+<!--         android:background="@drawable/nice_button" -->
+<!--         android:textSize="18sp" -->
+<!--         android:text="**For the application at first go to the massage option of a TELETALK prepaid mobile phone, Then type RU(space) first three letter of education board of H.S.C exam(space)Roll number of H.S.C/equivalent exam(space)Year of pass of H.S.C exam(space) First three letter of the education board of S.S.C/equivalent Exam(space)Roll number of S.S.C exam(space) Year of pass of S.S.C exam (space)unit code (space) If fall under any quota then quota keyword , send that to 16222 -->
+
+<!-- \n\n**Keyword for Ward quota WQ;   Physically handicapped quota PDQ;  freedom fighter=FFQ  and SEQ quota -->
+<!-- \n\n**Keyword for board Chittagong CHI Dhaka DHA Rajshahi RAJ Jessore JES Comilla COM Sylhet SYL Barishal BAR Dinajpur DIN Madrasha MAD diploma in commerce DIC business management HBM  vocational VOC                                                                                                                                                Example:   RU RAJ 123456 2012 RAJ 123458 2010 A1 (general)         RU RAJ 123456 2012 RAJ 123458 2010 A1 FFQ   (Freedom fighter quota)  NB:   this is applicable for A1 unit. select your unit and send." -->
+<!--         ></TextView> -->
+           
+<!--             <TextView -->
+<!--         android:id="@+id/textView1" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:gravity="fill" -->
+<!--         android:textColor="@android:color/white" -->
+<!--         android:background="@drawable/custom_btn_haiti" -->
+<!--         android:textSize="18sp" -->
+<!--         android:text="***in case of gec RU(space)OTH(space)H.S.C or equivalent roll number(space)year of pass A level(space)unit.  RU OTH 345678 2012 A1 -->
+
+<!-- \n\n***you will get reply SMS and reply if you want to apply send typing RU(space)YES(space)PIN number (space)your mobile number like RU YES 87654321 01XXXXXXXXX -->
+
+<!-- \n\n***if you get enough money in your mobile you will get your roll number for admisiion" -->
+<!--         ></TextView> -->
+           
+         
+            
+            <Button
+                android:id="@+id/eligible"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Seat plan RU"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+            
+             <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textColor="@android:color/white"
+        android:background="@drawable/nice_button"
+        android:textSize="18sp"
+        android:text="***For Seat Plan: RU(space) S (space) Unit Code (space) Roll
+\n***Ex: RU S A2 10001 and send to 9934"  ></TextView>
+            
+         
+             
+              <Button
+                android:id="@+id/eligible"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Result of Rajshahi University admission test:"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+            
+             <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textColor="@android:color/white"
+        android:background="@drawable/nice_button"
+        android:textSize="18sp"
+        android:text="***For Seat Plan: RU(space) R (space) Unit Code (space) Roll
+\n***Ex: RU R A2 10001 and send to 9934"  ></TextView>
+             
+                 <Button
+                android:id="@+id/eligible"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Admission Helpline:"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+            
+             <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textColor="@android:color/white"
+        android:background="@drawable/nice_button"
+        android:textSize="18sp"
+        android:text="***Three University Teachers will be provided service all time for admission.\n\n(i)01555-555017,\n(ii)01555-555018,\n(iii)01555-555019"  ></TextView>
+ 
+            <Button
+                android:id="@+id/eiligibilty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_seagull"
+                android:text="To know more from Web.\nhttp://admission.ru.ac.bd/" />
+  
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+         

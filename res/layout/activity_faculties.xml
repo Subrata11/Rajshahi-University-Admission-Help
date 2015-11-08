@@ -1,0 +1,281 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/custom_btn_seagull"
+    android:orientation="vertical" >
+    
+   				 <Button
+                android:id="@+id/btn"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_genoa"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Faculties of the University of Rajshahi "
+                android:textColor="@android:color/background_dark"
+                android:textSize="22sp" >
+            </Button>
+    
+    
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="1.Faculty of Arts"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="2.Faculty of Science"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="3.Faculty of Engineering"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="4.Faculty of Agriculure"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+            
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="5.Faculty of Business Studies"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="6.Faculty of Social Science "
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+            
+            
+             <Button
+                android:id="@+id/bt7"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="7.Faculty of Law"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/bt8"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="8.Faculty of Life and Earth Science"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+            
+        <Button
+                android:id="@+id/bt9"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="9.Faculty of Fine Arts\n(New Facuty from-2016)"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+    
+    
+		  <Button
+                android:id="@+id/d"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_genoa"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Institutes of The University of Rajshahi "
+                android:textColor="@android:color/background_dark"
+                android:textSize="22sp" >
+            </Button>
+    
+     
+            <Button
+                android:id="@+id/a"
+                android:layout_width="fill_parent"
+                android:layout_height="82dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="1.Institute of Bangladesh Studies "
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/b"
+                android:layout_width="fill_parent"
+                android:layout_height="82dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="2.Institute of Biological Science"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/c"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="3.Institute of Business Administration"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/dd"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="4.Institute of Environmental Science "
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+            
+            <Button
+                android:id="@+id/e"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="5.Institute of Education and Research"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

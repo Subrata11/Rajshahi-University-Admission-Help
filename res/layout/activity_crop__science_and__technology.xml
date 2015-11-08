@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/pharmacydept"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="25dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About Crop Science and Technology dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+              
+
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+        android:text="The Department of Crop Science and Technology is one of the most innovative Departments of the Faculty of Agriculture which was established in 2005. The Department was started with fifteen students and thirteen teachers. At present, we take fifty students every year. Now, the total students of this Department are more than 250. The Department offers a four year B. Sc. Ag. (Hons) course and one and half-year M.S. course in Horticulture and Soil Science. It also offers M. Phil and Ph. D. degrees. This Department teaches the Agronomy, Horticulture, Agroforestry, Environmental Science, Postharvest Technology, Soil Science, Crop Botany, Agri-chemistry, Genetics and Plant Breeding, Plant Pathology, Entomology, Seed Science and Technology, Agricultural Extension and Education, Agricultural Statistics, Agricultural Economics, Agricultural Marketing, Agribusiness and Rural Sociology etc. The mission of the Department is to produce skilled research workers or Agriculturists who should be innovatively involved in the development of agriculture. Our main objectives are to increase crop yield, plant diversification and to maintain disaster management. The agriculture graduates are working in the field level with rural and urban people towards the poverty alleviation and disaster management not only in the country but also in the world. "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/cropweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://dept.ru.ac.bd/cst/" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

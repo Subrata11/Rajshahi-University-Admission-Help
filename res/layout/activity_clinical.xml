@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/cilical"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Welcome to\nClinical phycology Dept\n(New dept from-2015)"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+        android:text="রাজশাহী বিশ্ববিদ্যালয়ে ২০১৫-১৬ শিক্ষাবর্ষে সাতটি নতুন বিভাগে স্নাতক সম্মান (অনার্স) শ্রেণিতে শিক্ষার্থী ভর্তির সিদ্ধান্ত হয়েছে। তার মধ্যে  জীব ও ভূবিজ্ঞান  অনুষদের অধীনে 'ক্লিনিক্যাল সাইকোলজি'একটি। এই বিভাগে  ২৫ জন শিক্ষার্থী ভর্তি করা হবে"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+  
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

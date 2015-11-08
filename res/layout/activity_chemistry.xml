@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/chemsdept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About Chemistry dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+     
+ 
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+         android:text="The Department of Chemistry, Rajshahi University is proud to announce that this year (2008) the department is going to celebrate the fifty years of her establishment. For this long years the department has been catering chemistry education to the Honours and Masters degree levels and has by this time produced large number of chemists for the nation. Each year the dept. also offers programs for M.Phil and Ph.D. degrees for a limited number of meritorious students in chemistry. Serious researches in different areas of chemistry are going an in the dept. under the supervision of the qualified teachers. The dept. has equipped undergraduate laboratories, large research laboratories for each section and a rich seminar library. The current faculty strength of the dept. is 40, of which 20 professors, 7 associate professors and the rest assistant professors. The teachers are all well-trained and equipped with the wealth of modern knowledge in chemistry. They are all committed of their noble profession.
+The Young Scholars of the country interested in chemistry will be highly welcome in the department. "
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        
+        
+            <Button
+                android:id="@+id/chemweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://dept.ru.ac.bd/chemistry/" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

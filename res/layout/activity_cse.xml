@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/csedept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About CSE dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <Button
+                android:id="@+id/vc"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="0.06"
+                android:background="@drawable/somlal"
+                android:gravity="right" />
+            
+             <Button
+                android:id="@+id/b"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="25dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Somlal Das.\nChairman and Associate Professors of CSE dept.\n."
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+                
+            </Button>
+            
+             
+              <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_haiti"
+        android:textSize="16sp"
+        android:text="Somlal Das received his B.Sc. and M. Sc. Degrees from the Department of Applied Physics and Electronics, Rajshahi University. He received his Ph.D. Degree from the Department of Computer Science and Engineering, Rajshahi University. He is currently working as Associate Professor  in the Department of Computer Science and Engineering, Rajshahi University. His research interests include Digital Signal Processing, Analysis and Synthesis of Speech Signal, Speech Enhancement and Image Processing."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+         android:text="The Department of Computer Science &amp; Engineering (CSE), one of the five departments under the Faculty of Engineering of Rajshahi University, was founded in 1993.In the Faculty of Engineering, undergraduate students enroll for a four-year programme through a highly competitive written admission test. On an average,100 students compete for one seat of the faculty. Research in the university is conducted in specialized institutes as well as individual departments, including the Department of CSE with offering of Master of Philosophy (MPhil) and Doctoral (PhD)Programmes.Today, the Department of CSE has attracted the attention of home and abroad. The world renowned Academicians, Researchers and IT-Professionals from home and abroad frequently visit CSE and make the students update with recent advancements in IT-technology. 
+It is a great opportunity for CSE students to get in touch of these inspiring faces of home and abroad.The reasons that cause to attract the luminaries of the computer world to the CSE Department is that this department has opened new horizons for higher studies and research, by bringing change into its overall course curriculum, lab, library and research facilities, 
+keeping pace with the standard of the world-class universities.As a result, the Department of CSE of the University of Rajshahi has become one of the leading Graduate and Post-Graduate Departments in Bangladesh. The present curriculum offered by this department has been designed in accordance with different renowned 
+universities around the world. Recently with financial aid from World Bank and UGC worth 33 Million BDT, CSE Department has been renovated to meet the highest standard of education and consequently, it is now offering a world-class learning experience. All of the class rooms and laboratories are equipped with modern audio-visual teaching-learning facilities and necessary experimental kits for undergraduateand graduate students.
+At the same time, it has extended the facilities to enhance research activities in different branches of computer science and its engineering applications. Moreover,the department frequently arranges workshop, seminar, academic contest of students and extra-curricular activities to explore the merits of its students in different dimensions."
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/cseweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\ndept.ru.ac.bd/cse/" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/custom_btn_seagull"
+    android:orientation="vertical" >
+	
+    
+   				 <Button
+                android:id="@+id/d"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_genoa"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="D unit: Faculty of Law\n(two depts)"
+                android:textColor="@android:color/background_dark"
+                android:textSize="22sp" >
+            </Button>
+            
+   				  <Button
+             android:id="@+id/land"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Law and land administrator\n(New from-2015)"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+    
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+            <Button
+                android:id="@+id/b"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About to law dept."
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+    
+
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/laww" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/law" />
+    
+    
+  <Button
+                android:id="@+id/lawweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://www.ru.ac.bd/law_faculty" />
+        
+    
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>

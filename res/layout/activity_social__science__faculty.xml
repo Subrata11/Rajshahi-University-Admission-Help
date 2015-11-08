@@ -1,0 +1,219 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/custom_btn_seagull"
+    android:orientation="vertical" >
+    
+   				 <Button
+                android:id="@+id/t"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_genoa"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="E unit: Faculty of Social Science\nEleven Depts"
+                android:textColor="@android:color/background_dark"
+                android:textSize="22sp" >
+            </Button>
+    
+    
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            
+            <Button
+                android:id="@+id/economic"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="1.Economics"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/political"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="2.Political Science"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/social"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="3.Social Work"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/sociology"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="4.Sociology"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+            
+            <Button
+                android:id="@+id/mass"
+                android:layout_width="fill_parent"
+                android:layout_height="81dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="5.Mass Communication and Journlism"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/publi"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="6.Public Administration"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+            
+            
+             <Button
+                android:id="@+id/information"
+                android:layout_width="fill_parent"
+                android:layout_height="81dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="7.Information Sc. and Library Management "
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/anthropology"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="8.Anthropology"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+            
+            
+             <Button
+                android:id="@+id/folkore"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="9.Folklore"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/ir"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="10.International Relations"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+             
+            <Button
+                android:id="@+id/folkore"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/nice_button"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="11.Institute of Education and Research(New Institute from-2015)"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+            </Button>
+            
+        </LinearLayout>
+    </ScrollView>
+
+     
+
+</LinearLayout>

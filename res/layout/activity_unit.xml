@@ -1,0 +1,288 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+     <Button
+             android:id="@+id/all"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="All Units."
+             android:textColor="@android:color/white"
+             android:textSize="18sp" >
+
+    </Button>
+
+      <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical" >
+
+         <Button
+             android:id="@+id/a"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="A unit"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+    
+         
+         
+         
+         <Button
+             android:id="@+id/d"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_genoa"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="B unit"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/c"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="C unit"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         
+              <Button
+             android:id="@+id/b"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="D unit"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/e"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_sandrift"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="E unit"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/f"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_seagull"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="F unit"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/g"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="G unit"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/h"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="H unit"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+          <Button
+             android:id="@+id/i"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="I unit(New from-2016)"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+
+         <Button
+             android:id="@+id/noticed"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Admission Notice and Eligibility"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+         
+          <Button
+             android:id="@+id/mark"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_genoa"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="All unit marks distribution"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+
+         <Button
+             android:id="@+id/online"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="OnLine Admission"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/sits"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Click to Show Admission Sit plan"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/reuslt"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Click to get Admission Result"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/rollnumber"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Find Admission Test Roll Number"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+        <Button
+             android:id="@+id/sitcapacity"
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="All depts Sit Capacity"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+    
+         
+     </LinearLayout>
+
+     
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admission_help"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.admission_help.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Unit"
+            android:label="@string/title_activity_unit" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.HistoryActivity"
+            android:label="@string/title_activity_history" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.FacultiesActivity"
+            android:label="@string/title_activity_faculties" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Law_faculty_Activity"
+            android:label="@string/title_activity_law_faculty_" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.ArtsActivity"
+            android:label="@string/title_activity_arts" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.ScienceActivity"
+            android:label="@string/title_activity_secience" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.BusnissActivity"
+            android:label="@string/title_activity_busniss" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.SocialActivity"
+            android:label="@string/title_activity_social" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.LifeActivity"
+            android:label="@string/title_activity_life" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.AgriActivity"
+            android:label="@string/title_activity_agri" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.ArgiActivity"
+            android:label="@string/title_activity_argi" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.EngiActivity"
+            android:label="@string/title_activity_engi" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.MeActivity"
+            android:label="@string/title_activity_me" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.PictureActivity"
+            android:label="@string/title_activity_picture" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Science_Faculty"
+            android:label="@string/title_activity_science__faculty" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Engineering_Faculty"
+            android:label="@string/title_activity_engineering__faculty" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Agri_Faculty"
+            android:label="@string/title_activity_agri__faculty" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Business_Faculty"
+            android:label="@string/title_activity_business__faculty" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Social_Science_Faculty"
+            android:label="@string/title_activity_social__science__faculty" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Law_Faculty"
+            android:label="@string/title_activity_law__faculty" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Bio_faculty"
+            android:label="@string/title_activity_bio_faculty" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.CSE"
+            android:label="@string/title_activity_cse" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Sits_capacity"
+            android:label="@string/title_activity_sits_capacity" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.ICE"
+            android:label="@string/title_activity_ice" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.APEE"
+            android:label="@string/title_activity_apee" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.ACCE"
+            android:label="@string/title_activity_acce" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.MSE"
+            android:label="@string/title_activity_mse" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Physics"
+            android:label="@string/title_activity_physics" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Chemistry"
+            android:label="@string/title_activity_chemistry" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Statistics"
+            android:label="@string/title_activity_statistics" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Pharmacy"
+            android:label="@string/title_activity_pharmacy" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Mathematics"
+            android:label="@string/title_activity_mathematics" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Biochemistry"
+            android:label="@string/title_activity_biochemistry" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Applied_Mathematics"
+            android:label="@string/title_activity_applied__mathematics" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Fisheries"
+            android:label="@string/title_activity_fisheries" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Crop_Science_and_Technology"
+            android:label="@string/title_activity_crop__science_and__technology" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Geography"
+            android:label="@string/title_activity_geography" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Psychology"
+            android:label="@string/title_activity_psychology" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Botany"
+            android:label="@string/title_activity_botany" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Zoology"
+            android:label="@string/title_activity_zoology" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Geology_and_Mining"
+            android:label="@string/title_activity_geology_and__mining" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Genetic_engineering_and_biotechnology"
+            android:label="@string/title_activity_genetic_engineering_and_biotechnology" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Economics"
+            android:label="@string/title_activity_economics" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Political_Science"
+            android:label="@string/title_activity_political__science" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Sociology"
+            android:label="@string/title_activity_sociology" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Social_Work"
+            android:label="@string/title_activity_social__work" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Mass_Communication_and_Journlism"
+            android:label="@string/title_activity_mass__communication_and__journlism" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Public_Administration"
+            android:label="@string/title_activity_public__administration" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Anthropology"
+            android:label="@string/title_activity_anthropology" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Accounting"
+            android:label="@string/title_activity_accounting" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Management_Studies"
+            android:label="@string/title_activity_management__studies" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Marketing"
+            android:label="@string/title_activity_marketing" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Finance"
+            android:label="@string/title_activity_finance" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Bangla"
+            android:label="@string/title_activity_bangla" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.English"
+            android:label="@string/title_activity_english" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.History_Dept"
+            android:label="@string/title_activity_history__dept" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.FineArts"
+            android:label="@string/title_activity_fine_arts" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Islamic_History"
+            android:label="@string/title_activity_islamic__history" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Eligibility_For_Admission"
+            android:label="@string/title_activity_eligibility__for__admission" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Marks_Distribution"
+            android:label="@string/title_activity_marks__distribution" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.LandActivity"
+            android:label="@string/title_activity_land" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.EEEActivity"
+            android:label="@string/title_activity_eee" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.ClinicalActivity"
+            android:label="@string/title_activity_clinical" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Physical_Education_Activity"
+            android:label="@string/title_activity_physical__education_" >
+        </activity>
+        <activity
+            android:name="com.example.admission_help.Fine_Arts_Activity"
+            android:label="@string/title_activity_fine__arts_" >
+        </activity>
+    </application>
+
+</manifest>

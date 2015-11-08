@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/msedept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="About MSE dept"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <Button
+                android:id="@+id/mse"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="0.06"
+                android:background="@drawable/mse"
+                android:gravity="right" />
+            
+             <Button
+                android:id="@+id/b"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="25dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Chairman of MSE dept."
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+                
+            </Button>
+            
+             
+              
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+         android:text="The department of Material Science and Engineering (MSE), University of Rajshahi (RU), is one of the leading Graduate and Post-graduate department in Bangladesh.The curriculum offered by our department has been designed in accordance with different renowned universities around the world. Recently with financial aid from World Bank and UGC worth 33 Million BDT, our department has been renovated to meet the highest standard of education and consequently, we now offer a world class learning experience. All of our class rooms and laboratories are equipped with modern audio-visual teaching-learning facilities and necessary experimental kits for undergraduate and graduate students. At the same time, we have extended the facilities to enhance"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/mseweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\ndept.ru.ac.bd/mse/" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

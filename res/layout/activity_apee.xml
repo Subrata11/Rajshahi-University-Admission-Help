@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor"
+    android:orientation="vertical" >
+
+             <Button
+                android:id="@+id/apeedept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn_orange"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Welcome to APEE Department"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@android:layout/simple_list_item_1"
+                android:textSize="18sp" >
+            </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_genoa"
+        android:text="The historical background of the creation of Department of Applied Physics and Electronic Engineering (APEE) goes back to mid sixties when an urgent need to establish a department of Applied Physics and Electronics was felt. As a matter of fact APE began its journey in 1966 with a few teaching staff and some 20 post graduate students under the leadership of the late Professor M. R. Sarkar ( later became the Vice-Chancellor of this University). Undergraduate honors course was introduced in 1972. As the only other center of the Applied Physics and Electronics in the country, APE gradually rose to become a full-fledged and prestigious center of excellence. In 2006 the name of the department has been changed to Applied Physics and Electronic Engineering. Today APEE has a team of highly qualified and professionally well experienced academic members who are actively engaged in research within and outside the country. APEE boasts of having close research links with the institutions of countries like Sweden, China and Vietnam. Students entering APEE leave with self-confidence on the subject to meet any challenges demanded by their jobs."
+        
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+        
+        
+            <Button
+                android:id="@+id/apeeweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_orange"
+                android:text="To know more from Web.\nhttp://dept.ru.ac.bd/apee/" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+         

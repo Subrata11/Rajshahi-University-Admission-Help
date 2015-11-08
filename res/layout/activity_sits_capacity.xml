@@ -1,0 +1,826 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+     <Button
+             android:id="@+id/all"
+             android:layout_width="fill_parent"
+             android:layout_height="50dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="All depts Sit Capacity"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" >
+
+    </Button>
+  
+             
+     
+
+      <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical" >
+         
+         <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_btn_haiti"
+        android:textSize="18sp"
+        android:text="***Total Seat: 4148*** \n(i)Arts faculty- 1000, \n(ii)Law-100, \n(iii)Science- 750, \n(iv)Business Studies-460, \n(v)Social Science-700, \n(vi)Biology and Geology- 400, \n(vii)Agriculture-215, \n(viii)Engineering-255,\n(ix)Fine Arts-165"
+        ></TextView>
+         
+         <Button
+             android:id="@+id/a"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Bengali.\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/b"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="English.\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/c"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="History.\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/d"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_genoa"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Philosophy .\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/e"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_sandrift"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Languages.\nThe sit capacity of this dept is 120"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/f"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_seagull"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Fine Arts Faculty.\nThe sit capacity of this Faculty is (45+45+45+30=165) "
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/g"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Islamic History and Culture\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/h"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Arabic\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/noticed"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Islamic Studies\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/online"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Theatre\nThe sit capacity of this dept is 20"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/sits"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Music\nThe sit capacity of this dept is 20"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+         //++=++++++++++++++++++agri
+         
+          <Button
+             android:id="@+id/a"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Agronomy and Agricultura Extension\nThe sit capacity of this dept is 40"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/b"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Fisheries.\nThe sit capacity of this dept is 40"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/c"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Animal Husbandry and Veterinary Science.\nThe sit capacity of this dept is 35"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/d"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_genoa"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Crop Science and Technology.\nThe sit capacity of this dept is 50"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+     
+         
+         //+++++++++++++++++++++++++++++++++++++++++++++++++++++++ science 
+         
+          <Button
+             android:id="@+id/a"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Physics.\nThe sit capacity of this dept is 90"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/b"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Chemistry.\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/c"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Statistics.\nThe sit capacity of this dept is 80"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/d"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_genoa"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Pharmacy.\nThe sit capacity of this dept is 50"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/e"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_sandrift"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Mathematics\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/f"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_seagull"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Biochemistry and Molecular Biology.\nThe sit capacity of this dept is 50"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/g"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Applied Mathematics\nThe sit capacity of this dept is 80"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/h"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Population Science and Human Resource Development\nThe sit capacity of this dept is 60"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         
+         
+         //++++++++++++++++++++++++++++++++++++++++++ social science 
+         <Button
+             android:id="@+id/noticed"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Economics\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/online"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Political Science\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/sits"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Social Work\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+         <Button
+             android:id="@+id/noticed"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Sociology\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/online"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Mass Communication and Journlism\nThe sit capacity of this dept is 45"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/sits"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Public Administration\nThe sit capacity of this dept is 60"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+         
+         <Button
+             android:id="@+id/sits"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Information Sc. and Library Management\nThe sit capacity of this dept is 60"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+         <Button
+             android:id="@+id/noticed"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Anthropology\nThe sit capacity of this dept is 50"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/online"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Folklore\nThe sit capacity of this dept is 60"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/sits"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="International Relations\nThe sit capacity of this dept is 40"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+         
+         //+++++++++++++++++++++++++++++++++Earth Science
+         
+                 <Button
+             android:id="@+id/noticed"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Geography and Environmental Studies\nThe sit capacity of this dept is 75"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/online"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Psychology\nThe sit capacity of this dept is 65"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/sits"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Botany\nThe sit capacity of this dept is 80"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+         <Button
+             android:id="@+id/noticed"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Zoology\nThe sit capacity of this dept is 80"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/online"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Geology and Mining\nThe sit capacity of this dept is 60"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/sits"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Genetic Engineering and Biotechnology\nThe sit capacity of this dept is 40"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+         //++++++++++++++++Faculty of Business Studies
+         
+                 <Button
+             android:id="@+id/noticed"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Accounting and Information Systems\nThe sit capacity of this dept is 130"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/online"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Management studies\nThe sit capacity of this dept is 110"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/sits"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Marketing\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+         <Button
+             android:id="@+id/noticed"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Finance\nThe sit capacity of this dept is 125"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/online"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Banking and Insurance\nThe sit capacity of this dept is 60"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+         
+         
+         <Button
+             android:id="@+id/online"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_sandrift"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="law\nThe sit capacity of this dept is 100"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+        //+++++++++++++++++++++++++++Faculty of Engineering
+        
+          
+         <Button
+             android:id="@+id/a"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/nice_button"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Applied Physics and Electronic Engineering .\nThe sit capacity of this dept is 70"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/b"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_orange"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Computer Science and Engineering.\nThe sit capacity of this dept is 40"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/c"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_haiti"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Information and Communication Engineering.\nThe sit capacity of this dept is 45"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/d"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_genoa"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Applied Chemistry and Chemical Engineering.\nThe sit capacity of this dept is 80"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/e"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_btn_sandrift"
+             android:gravity="center"
+             android:shadowColor="@android:color/black"
+             android:shadowDx="1"
+             android:shadowDy="1"
+             android:shadowRadius="1"
+             android:text="Materials Science and Engineering.\nThe sit capacity of this dept is 30"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+ 
+ 
+     </LinearLayout>
+
+     
+    </ScrollView>
+
+</LinearLayout>
